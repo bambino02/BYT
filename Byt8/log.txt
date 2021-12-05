@@ -1,0 +1,121 @@
+commit 92f96efdb5277d34d31214fa6a3fb3e41db32159
+Merge: af8f210 e92f2d3
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 23:08:32 2021 +0100
+
+    solving conflict
+
+commit e92f2d3276c1fb961d8444dd10773385b2e3214e
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:50:32 2021 +0100
+
+    secondFiole changed on newBranch
+
+ Byt8/file2.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit af8f210415713a6a0e03614c77c259a3146aed33
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:46:38 2021 +0100
+
+    secondFile changed
+
+ Byt8/file2.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3d59e26b98a2f9c7c3066b6cf85f65d9737a30fe
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:40:12 2021 +0100
+
+    secondFile commited
+
+ Byt8/file2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 979eefdbb9e416b95d62817f31d2a7c9aaa22a33
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Dec 5 22:39:06 2021 +0100
+
+    firstFile commited
+
+ Byt8/file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 93281ea1df1949caadf4e87ee6c1494b7b615085
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Nov 28 21:44:01 2021 +0100
+
+    lab6_7 done 2/4 tests works fully
+
+ .DS_Store                                          | Bin 6148 -> 6148 bytes
+ Byt6_7/.DS_Store                                   | Bin 0 -> 6148 bytes
+ Byt6_7/Unit-testing/.classpath                     |   8 ++
+ Byt6_7/Unit-testing/.project                       |  17 +++
+ Byt6_7/Unit-testing/bin/.classpath                 |   6 +
+ Byt6_7/Unit-testing/bin/.project                   |  17 +++
+ .../bin/b_Money/Account$TimedPayment.class         | Bin 0 -> 1512 bytes
+ Byt6_7/Unit-testing/bin/b_Money/Account.class      | Bin 0 -> 2662 bytes
+ .../bin/b_Money/AccountDoesNotExistException.class | Bin 0 -> 392 bytes
+ .../bin/b_Money/AccountExistsException.class       | Bin 0 -> 374 bytes
+ Byt6_7/Unit-testing/bin/b_Money/AccountTest.class  | Bin 0 -> 2960 bytes
+ Byt6_7/Unit-testing/bin/b_Money/Bank.class         | Bin 0 -> 3520 bytes
+ Byt6_7/Unit-testing/bin/b_Money/BankTest.class     | Bin 0 -> 3354 bytes
+ Byt6_7/Unit-testing/bin/b_Money/Currency.class     | Bin 0 -> 1278 bytes
+ Byt6_7/Unit-testing/bin/b_Money/CurrencyTest.class | Bin 0 -> 1996 bytes
+ Byt6_7/Unit-testing/bin/b_Money/Money.class        | Bin 0 -> 2341 bytes
+ Byt6_7/Unit-testing/bin/b_Money/MoneyTest.class    | Bin 0 -> 3370 bytes
+ Byt6_7/Unit-testing/src/.classpath                 |   6 +
+ Byt6_7/Unit-testing/src/.project                   |  17 +++
+ Byt6_7/Unit-testing/src/b_Money/Account.java       | 116 +++++++++++++++
+ .../src/b_Money/AccountDoesNotExistException.java  |   5 +
+ .../src/b_Money/AccountExistsException.java        |   5 +
+ Byt6_7/Unit-testing/src/b_Money/Bank.java          | 159 +++++++++++++++++++++
+ Byt6_7/Unit-testing/src/b_Money/Currency.java      |  67 +++++++++
+ Byt6_7/Unit-testing/src/b_Money/Money.java         | 128 +++++++++++++++++
+ Byt6_7/Unit-testing/test/b_Money/AccountTest.java  |  57 ++++++++
+ Byt6_7/Unit-testing/test/b_Money/BankTest.java     |  79 ++++++++++
+ Byt6_7/Unit-testing/test/b_Money/CurrencyTest.java |  46 ++++++
+ Byt6_7/Unit-testing/test/b_Money/MoneyTest.java    |  77 ++++++++++
+ 29 files changed, 810 insertions(+)
+
+commit f7a44b802e4f59221214976739f1db12a2003079
+Author: bambino02 <63254361+bambino02@users.noreply.github.com>
+Date:   Sun Nov 28 17:16:07 2021 +0100
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0042b87009e856868479395cc3613fd8d0e8b66f
+Author: bambino <v.a.barry1@gmail.com>
+Date:   Sun Nov 14 19:36:01 2021 +0100
+
+    assignment4 and 5
+
+ .DS_Store                               | Bin 0 -> 6148 bytes
+ Byt4_5/Calculator_gr1_t1/add.py         |  25 +++++++++++++++
+ Byt4_5/Calculator_gr1_t1/add.pyc        | Bin 0 -> 978 bytes
+ Byt4_5/Calculator_gr1_t1/deduct.py      |  21 +++++++++++++
+ Byt4_5/Calculator_gr1_t1/deduct.pyc     | Bin 0 -> 990 bytes
+ Byt4_5/Calculator_gr1_t1/divide.py      |  21 +++++++++++++
+ Byt4_5/Calculator_gr1_t1/divide.pyc     | Bin 0 -> 1012 bytes
+ Byt4_5/Calculator_gr1_t1/main.py        |  14 +++++++++
+ Byt4_5/Calculator_gr1_t1/multiple.py    |  20 ++++++++++++
+ Byt4_5/Calculator_gr1_t1/multiple.pyc   | Bin 0 -> 998 bytes
+ Byt4_5/Calculator_gr1_t1/operation.py   |  11 +++++++
+ Byt4_5/Calculator_gr1_t1/operation.pyc  | Bin 0 -> 900 bytes
+ Byt4_5/Calculator_gr1_t1/percent.py     |  18 +++++++++++
+ Byt4_5/Calculator_gr1_t1/percent.pyc    | Bin 0 -> 1005 bytes
+ Byt4_5/MomentoDP_gr1_t2/Main.py         |  39 ++++++++++++++++++++++++
+ Byt4_5/Object_PoolDP_gr2_t2/__init__.py |  52 ++++++++++++++++++++++++++++++++
+ 16 files changed, 221 insertions(+)
+
+commit 63881ea21c0b71f1662b01d3009392e4222d33a9
+Author: bambino02 <63254361+bambino02@users.noreply.github.com>
+Date:   Sun Nov 14 19:30:12 2021 +0100
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
