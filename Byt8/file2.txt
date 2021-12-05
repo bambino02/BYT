@@ -1,1 +1,5 @@
-My s-number is 20897, file was changed
+<<<<<<< HEAD
+My s-number is 20897, file was changed this file is modified in newBranch
+=======
+My s-number is 20897, file was changed this file is modified in newBranch
+>>>>>>> newBranch
